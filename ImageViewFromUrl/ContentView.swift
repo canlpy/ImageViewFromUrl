@@ -17,11 +17,11 @@ struct ContentView: View {
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 300, height: 200) // Set your desired image size here
+                    .frame(width: 300, height: 200)
             }
             .padding()
             
-            // Add other SwiftUI views as needed below
+           
         }
     }
 }
